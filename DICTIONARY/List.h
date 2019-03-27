@@ -12,6 +12,7 @@ protected:
     void clear();
 public:
     List(){init();}
+    ~List(){clear();delete header;delete trailer;}
     int size(){return _size;}
     bool empty(){return _size<=0;};
     ListNode<T>* first() const{return header->succ;}

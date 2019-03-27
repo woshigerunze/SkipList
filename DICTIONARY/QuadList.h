@@ -38,6 +38,7 @@ void QuadList<T>::init()
 template<typename T>
 QuadListNode<T>* QuadList<T>::insertAsFirst(const T& entry)
 {
+    _size++;
     QuadListNode<T>* x=new QuadListNode<T>(entry);
     x->succ=header->succ;
     header->succ->pred=x;
@@ -48,6 +49,7 @@ QuadListNode<T>* QuadList<T>::insertAsFirst(const T& entry)
 template<typename T>
 QuadListNode<T>* QuadList<T>::insertAsLast(const T& entry)
 {
+    _size++;
     QuadListNode<T>* x=new QuadListNode<T>(entry);
     x->pred=trailer->pred;
     trailer->pred->succ=x;
@@ -66,10 +68,9 @@ QuadListNode<T>* QuadList<T>::insertAfterAbove(const T& entry,
 template<typename T>
 void QuadList<T>::remove(QuadListNode<T>* x)
 {
-    std::cout<<x->entry.value<<std::endl;
+    //std::cout<<x->entry.value<<std::endl;
     x->pred->succ=x->succ;
     x->succ->pred=x->pred;
-    _size--;
     delete x;
 }
 template<typename T>
