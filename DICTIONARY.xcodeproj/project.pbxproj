@@ -23,8 +23,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B38319D224A787B006590B2 /* SkipList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkipList.h; sourceTree = "<group>"; };
 		2BBB8373224A4BD90004989B /* DICTIONARY */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DICTIONARY; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBB8376224A4BD90004989B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BBB837D224A4C450004989B /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		2BBB837E224A4F510004989B /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		2BBB837F224A5F220004989B /* Entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		2BBB8380224A64B30004989B /* QuadListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadListNode.h; sourceTree = "<group>"; };
+		2BBB8381224A66CF0004989B /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		2BBB8382224A70170004989B /* QuadList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				2BBB8376224A4BD90004989B /* main.cpp */,
+				2BBB837D224A4C450004989B /* ListNode.h */,
+				2BBB837E224A4F510004989B /* List.h */,
+				2BBB837F224A5F220004989B /* Entry.h */,
+				2BBB8381224A66CF0004989B /* Dictionary.h */,
+				2BBB8380224A64B30004989B /* QuadListNode.h */,
+				2BBB8382224A70170004989B /* QuadList.h */,
+				2B38319D224A787B006590B2 /* SkipList.h */,
 			);
 			path = DICTIONARY;
 			sourceTree = "<group>";

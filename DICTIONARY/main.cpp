@@ -1,15 +1,12 @@
-//
-//  main.cpp
-//  DICTIONARY
-//
-//  Created by 葛润泽 on 2019/3/26.
-//  Copyright © 2019 葛润泽. All rights reserved.
-//
-
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include<iostream>
+#include"SkipList.h"
+using namespace std;
+int main()
+{
+    QuadList<Entry<int,int>> test;
+    for(int i=0;i<10;i++)
+    {
+        Entry<int,int> entry(i,i);
+        test.insertAsLast(entry);
+    }
 }
